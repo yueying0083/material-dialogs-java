@@ -13,16 +13,16 @@ import android.graphics.drawable.ShapeDrawable;
 import android.graphics.drawable.StateListDrawable;
 import android.graphics.drawable.shapes.OvalShape;
 import android.os.Build;
-import androidx.annotation.ColorInt;
-import androidx.annotation.ColorRes;
-import androidx.annotation.FloatRange;
-import androidx.core.view.GravityCompat;
-import androidx.core.view.ViewCompat;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.widget.FrameLayout;
 import android.widget.Toast;
+import androidx.annotation.ColorInt;
+import androidx.annotation.ColorRes;
+import androidx.annotation.FloatRange;
+import androidx.core.view.GravityCompat;
+import androidx.core.view.ViewCompat;
 import com.afollestad.materialdialogs.util.DialogUtils;
 
 public class CircleView extends FrameLayout {

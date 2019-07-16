@@ -2,13 +2,13 @@ package com.afollestad.materialdialogssample;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import androidx.annotation.ArrayRes;
-import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import androidx.annotation.ArrayRes;
+import androidx.recyclerview.widget.RecyclerView;
 
 /** Simple adapter example for custom items in the dialog */
 class ButtonItemAdapter extends RecyclerView.Adapter<ButtonItemAdapter.ButtonVH> {

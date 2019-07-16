@@ -1,12 +1,12 @@
 package com.afollestad.materialdialogs.simplelist;
 
 import android.graphics.PorterDuff;
-import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import androidx.recyclerview.widget.RecyclerView;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.afollestad.materialdialogs.commons.R;
 import com.afollestad.materialdialogs.internal.MDAdapter;

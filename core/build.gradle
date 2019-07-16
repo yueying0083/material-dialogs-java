@@ -34,10 +34,11 @@ dependencies {
 }
 
 publish {
-    userOrg = 'novoda'
-    groupId = 'com.afollestad.material-dialogs'
+    userOrg = 'l2306'
+    groupId = 'com.afollestad.material-dialogs-java'
     artifactId = 'core'
     publishVersion = versions.publishVersion
+    repoName = "material-dialogs-java"
     website = 'https://github.com/afollestad/material-dialogs'
     desc = 'A beautiful, fluid, and customizable dialogs API. '
 }

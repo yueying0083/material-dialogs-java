@@ -3,9 +3,9 @@ package com.afollestad.materialdialogs;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import androidx.annotation.Nullable;
 import android.view.View;
 import android.view.ViewGroup;
+import androidx.annotation.Nullable;
 import com.afollestad.materialdialogs.internal.MDRootLayout;
 
 /** @author Aidan Follestad (afollestad) */

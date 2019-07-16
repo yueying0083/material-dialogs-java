@@ -3,6 +3,7 @@ package com.afollestad.materialdialogs.simplelist;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
+import android.util.TypedValue;
 import androidx.annotation.AttrRes;
 import androidx.annotation.ColorInt;
 import androidx.annotation.ColorRes;
@@ -12,7 +13,6 @@ import androidx.annotation.IntRange;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.core.content.ContextCompat;
-import android.util.TypedValue;
 import com.afollestad.materialdialogs.util.DialogUtils;
 
 /** @author Aidan Follestad (afollestad) */

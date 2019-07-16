@@ -3,8 +3,8 @@ package com.afollestad.materialdialogssample;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
-import androidx.appcompat.app.AppCompatActivity;
 import android.view.MenuItem;
+import androidx.appcompat.app.AppCompatActivity;
 
 @SuppressLint("NewApi")
 public class PreferenceActivity extends AppCompatActivity {
