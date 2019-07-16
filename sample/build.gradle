@@ -1,0 +1,50 @@
+apply from: '../dependencies.gradle'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion versions.compileSdk
+    buildToolsVersion versions.buildTools
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    defaultConfig {
+        applicationId "com.afollestad.materialdialogssample"
+        minSdkVersion versions.minSdk
+        targetSdkVersion versions.compileSdk
+        versionCode versions.publishVersionCode
+        versionName versions.publishVersion
+    }
+    lintOptions {
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+        }
+    }
+}
+
+dependencies {
+    implementation project(':core')
+    implementation project(':commons')
+    implementation 'com.google.code.findbugs:jsr305:' + versions.findBugs
+
+    implementation 'androidx.gridlayout:gridlayout:' + versions.gridlayout
+    implementation 'androidx.appcompat:appcompat:' + versions.appcompat
+    implementation 'androidx.recyclerview:recyclerview:' + versions.recyclerview
+
+    implementation 'com.jakewharton:butterknife:' + versions.butterKnife
+    annotationProcessor 'com.jakewharton:butterknife-compiler:' + versions.butterKnife
+
+    implementation 'com.facebook.stetho:stetho:1.4.2'
+}

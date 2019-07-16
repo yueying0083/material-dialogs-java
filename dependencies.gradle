@@ -1,0 +1,18 @@
+ext.versions = [
+        minSdk            : 14,
+        compileSdk        : 28,
+        buildTools        : '28.0.3',
+        publishVersion    : '0.9.6.0-androidx',
+        publishVersionCode: 180,
+        gradlePlugin      : '3.1.1',
+        spotlessPlugin    : '3.10.0',
+        findBugs          : '3.0.2',
+        bintrayRelease    : '0.8.1',
+
+        appcompat         : '1.0.2',
+        annotation        : '1.0.0',
+        recyclerview      : '1.0.0',
+        gridlayout        : '1.0.0',
+        mdProgressBar     : '1.6.1',
+        butterKnife       : '10.1.0'
+]
