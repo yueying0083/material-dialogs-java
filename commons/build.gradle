@@ -33,7 +33,7 @@ dependencies {
 }
 
 publish {
-    userOrg = 'l2306'
+    userOrg = 'devyy093'
     groupId = 'com.afollestad.material-dialogs-java'
     artifactId = 'commons'
 
